@@ -988,18 +988,18 @@ body {
 /*# sourceMappingURL=style.css.map */
 h1.message {
   position: fixed;
-  top: 15%; /* 👈 fica em cima das flores */
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
 
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', cursive !important;
   font-size: 4rem;
 
-  color: white;
+  color: #ffffff !important;
 
   text-align: center;
 
-  z-index: 999999999;
+  z-index: 999999999 !important;
 
   text-shadow:
     0 0 10px #fff,
@@ -1009,4 +1009,7 @@ h1.message {
   pointer-events: none;
 
   white-space: nowrap;
+
+  opacity: 1 !important;
+  filter: none !important;
 }
