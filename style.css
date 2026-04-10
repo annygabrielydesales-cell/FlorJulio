@@ -32,7 +32,6 @@ body {
 }
 
 .flowers {
-.flowers {
   position: relative;
   transform: scale(0.9);
 }
@@ -985,27 +984,30 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-h1.message {
-  all: unset !important; /* 🔥 limpa conflitos */
-h1.message {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
-  font-family: 'Great Vibes', cursive;
-  font-size: 4rem;
+/*# sourceMappingURL=style.css.map */
+body h1.message {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
 
-  color: white;
+  font-size: 2.5rem !important;
 
-  text-align: center;
+  color: #ffffff !important;
 
-  z-index: 999999999;
+  font-family: Arial, sans-serif !important;
+  text-align: center !important;
 
-  text-shadow:
-    0 0 10px #fff,
-    0 0 20px #ff69b4,
-    0 0 40px #ff69b4;
+  z-index: 999999999 !important;
 
-  pointer-events: none;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 40px #ff69b4;
+
+  opacity: 1 !important;
+
+  pointer-events: none !important;
+
+  mix-blend-mode: normal !important;
 }
