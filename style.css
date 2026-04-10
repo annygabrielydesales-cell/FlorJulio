@@ -985,8 +985,34 @@ body {
   animation-play-state: paused !important;
 }
 
-/*# sourceMappingURL=style.css.map */
 .message {
-  z-index: 999999999 !important;
-  position: fixed !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #ff69b4,
+               0 0 40px #ff1493;
+
+  z-index: 999999;
+  
+  opacity: 0;
+}
+
+/* 🔥 aparece só depois da animação carregar */
+body:not(.not-loaded) .message {
+  animation: aparecer 3s ease forwards;
+  animation-delay: 1s;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+  }
 }
