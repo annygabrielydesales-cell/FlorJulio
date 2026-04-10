@@ -1,7 +1,5 @@
 
-onload = () => {
-    const c = setTimeout(() => {
-      document.body.classList.remove("not-loaded");
-      clearTimeout(c);
-    }, 1000);
-  };
+// só pra garantir que animação começa suave
+window.addEventListener("load", () => {
+  document.body.classList.remove("not-loaded");
+});
