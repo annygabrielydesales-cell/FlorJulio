@@ -986,28 +986,3 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
-body h1.message {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-
-  font-size: 2.5rem !important;
-
-  color: #ffffff !important;
-
-  font-family: Arial, sans-serif !important;
-  text-align: center !important;
-
-  z-index: 999999999 !important;
-
-  text-shadow: 0 0 10px #fff,
-               0 0 20px #fff,
-               0 0 40px #ff69b4;
-
-  opacity: 1 !important;
-
-  pointer-events: none !important;
-
-  mix-blend-mode: normal !important;
-}
