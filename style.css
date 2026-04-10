@@ -993,7 +993,7 @@ h1.message {
   transform: translate(-50%, -50%);
 
   font-size: 2.5rem !important;
-  color: #ffffff !important;
+  color: white !important;
 
   font-family: Arial, sans-serif !important;
   text-align: center !important;
