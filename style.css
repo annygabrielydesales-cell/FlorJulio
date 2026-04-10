@@ -986,3 +986,27 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+h1.message {
+  position: fixed;
+  top: 15%; /* 👈 fica em cima das flores */
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+
+  color: white;
+
+  text-align: center;
+
+  z-index: 999999999;
+
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #ff69b4,
+    0 0 40px #ff69b4;
+
+  pointer-events: none;
+
+  white-space: nowrap;
+}
