@@ -7,8 +7,7 @@
 }
 
 :root {
- color:body {
-  background-color: var(--dark-color);
+  --dark-color: #000;
 }
 
 body {
@@ -32,6 +31,7 @@ body {
   filter: blur(0.1vmin);
 }
 
+.flowers {
 .flowers {
   position: relative;
   transform: scale(0.9);
