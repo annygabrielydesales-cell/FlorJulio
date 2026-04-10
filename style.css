@@ -984,22 +984,27 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-.message {
-  position: fixed;
+h1.message {
+  all: unset !important; /* 🔥 limpa conflitos */
+  
+  position: fixed !important;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  font-size: 2.5rem;
-  color: #ffffff !important; /* 🔥 branco FORÇADO */
-  font-family: Arial, sans-serif;
-  text-align: center;
+  font-size: 2.5rem !important;
+  color: #ffffff !important;
 
-  text-shadow: 0 0 10px rgba(255,255,255,0.8),
-               0 0 20px rgba(255,255,255,0.6);
+  font-family: Arial, sans-serif !important;
+  text-align: center !important;
 
-  z-index: 9999999;
-  opacity: 1;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff,
+               0 0 40px #ff69b4;
 
-  pointer-events: none;
+  z-index: 999999999 !important;
+
+  opacity: 1 !important;
+
+  pointer-events: none !important;
 }
