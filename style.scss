@@ -1361,3 +1361,22 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+h1.message {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-family: cursive;
+  font-size: 4rem;
+
+  color: white !important;
+
+  z-index: 999999999 !important;
+
+  text-shadow:
+    0 0 10px white,
+    0 0 20px #ff69b4;
+
+  pointer-events: none;
+}
